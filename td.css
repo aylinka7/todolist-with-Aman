@@ -1,0 +1,23 @@
+.todo-container {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.checkedText {
+    text-decoration: line-through;
+}
+.block {
+    background: red;
+    width: 15px;
+    height: 15px;
+    margin-left: -23px;
+    position: absolute;
+    top: 12px;
+    /* z-index: -5; */
+}
+.block:hover {
+    cursor: pointer;
+}
+.block1 {
+    z-index: -5;
+}
